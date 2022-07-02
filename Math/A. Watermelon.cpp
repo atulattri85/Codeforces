@@ -4,13 +4,13 @@ int main()
 {
     int w;
     cin>>w;
-    if(w%2==0 && w>=2)
+    if(w%2==0 && w>2)
     {
-        cout<<"YES";
+        cout<<"YS"<<endl;
     }
     else 
     {
-        cout<<"NO";
+        cout<<"NO"<<endl;
     }
     return 0;
 }
